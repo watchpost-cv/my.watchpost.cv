@@ -1,10 +1,9 @@
-<main class="auth-shell" data-watchpost-launcher data-main-default-host="localhost" data-main-default-port="7334" data-agent-default-host="localhost" data-agent-default-port="7335">
+<main class="auth-shell" data-watchpost-launcher data-default-host="localhost" data-default-port="7334">
   <form class="auth-card" data-config novalidate>
     <div class="auth-brand"><span class="brand-mark">W</span><strong>Watchpost</strong></div><h1>Watchpost</h1>
     <div class="error" data-error role="alert" hidden></div>
     <div class="fields"><label>Domain or IP<input name="main-host" value="localhost" placeholder="localhost or https://watchpost.example.com" autocomplete="url" spellcheck="false"></label><label>Port<input name="main-port" type="number" min="1" max="65535" value="7334"></label></div>
-    <div class="fields agent-fields"><label>Agent domain or IP<input name="agent-host" value="localhost" placeholder="localhost or https://agent.example.com" autocomplete="url" spellcheck="false"></label><label>Agent port<input name="agent-port" type="number" min="1" max="65535" value="7335"></label></div>
     <div class="actions"><button type="submit">Save</button><button type="button" class="secondary" data-defaults>Use defaults</button></div>
-    <button type="button" class="secondary open" data-open-main>Open Watchpost</button><button type="button" class="secondary open" data-open-agent>Open Agent</button>
+    <button type="button" class="secondary open" data-open>Open Watchpost</button>
   </form>
 </main>

@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Choose an instance</title>
+  <script>
+    const query = new URLSearchParams(location.search);
+    query.set('route', 'app');
+    location.replace('/?' + query.toString());
+  </script>
+</head>
+<body><noscript>JavaScript is required to choose an instance for the application page.</noscript></body>
+</html>
